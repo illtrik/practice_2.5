@@ -114,7 +114,7 @@ def input_grades():
 
 
 def main():
-    conn = sqlite3.connect("students.db")
+    conn = sqlite3.connect("resourse/students.db")
     create_table(conn)
     while True:
         print("\nМеню:")
